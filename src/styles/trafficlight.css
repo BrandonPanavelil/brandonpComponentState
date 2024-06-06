@@ -1,0 +1,54 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  button {
+    margin-top: 10px;
+    
+  }
+  
+  .stem {
+    background-color: black;
+    width: 30px;
+    height: 200px;
+  }
+  
+  .traffic-light-body {
+    background-color: black;
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .light {
+    width: 115px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 42px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.5s ease-in-out;
+  }
+  
+  .light.active {
+    box-shadow: 0 0 70px rgb(254, 249, 232); 
+  }
+    
+  .red {
+    background-color: red;
+    margin-top: 30px;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
